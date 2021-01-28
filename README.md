@@ -1,6 +1,6 @@
 # Create Malibu App ![create-malibu-app](https://img.shields.io/npm/v/@quintype/create-malibu-app.svg)
 
-> This is a started kit for creating frontend Node JS and React JS applications on quintype.
+> This is a started kit for creating frontend Node JS and React JS applications on Quintype.
 
 ## Prerequisites
 
