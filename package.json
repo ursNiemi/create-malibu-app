@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "A starter kit for malibu apps",
   "main": "index.js",
+  "bin": "bin/create-malibu-app",
   "scripts": {
-    "test": "test"
+    "prepublishOnly": "npm install && git diff --quiet && npx standard-version && git push --follow-tags origin"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/quintype/create-malibu-app/issues"
   },
-  "homepage": "https://github.com/quintype/create-malibu-app#readme"
+  "homepage": "https://github.com/quintype/create-malibu-app#readme",
+  "devDependencies": {
+    "standard-version": "^9.1.0"
+  }
 }
