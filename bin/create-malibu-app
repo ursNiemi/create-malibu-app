@@ -13,7 +13,5 @@ cd $DEST
 git init
 
 npm install
-git add .
-git commit -nam "Initial Commit"
 
 echo "Created $1!"
