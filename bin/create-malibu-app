@@ -6,11 +6,9 @@ EXEC_PATH="$0"
 CODE_PATH="$(cd ..; pwd)"
 echo "Preparing malibu to be $1"
 git clone --quiet git@github.com:quintype/malibu.git $DEST
-rm -rf "$CODE_PATH/$DEST/.circleci/" "$CODE_PATH/$DEST/lighthousecierc.js"
+rm -rf $DEST/.circleci/ $DEST/lighthouserc.js $DEST/.git/
 
 cd $DEST
-
-git init
 
 npm install
 
