@@ -1,0 +1,26 @@
+{
+  "name": "@quintype/create-malibu-app",
+  "version": "1.0.0",
+  "description": "A starter kit for malibu apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/quintype/create-malibu-app.git"
+  },
+  "keywords": [
+    "starter",
+    "kit",
+    "new",
+    "nodejs",
+    "reactjs"
+  ],
+  "author": "Ramsharan Gorur Jayaraman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quintype/create-malibu-app/issues"
+  },
+  "homepage": "https://github.com/quintype/create-malibu-app#readme"
+}
