@@ -1,6 +1,6 @@
 {
   "name": "@quintype/create-malibu-app",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "A starter kit for malibu apps",
   "main": "index.js",
   "bin": "bin/create-malibu-app",
