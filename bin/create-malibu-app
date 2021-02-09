@@ -7,7 +7,7 @@ CODE_PATH="$(
   cd ..
   pwd
 )"
-if [ $2 == "advanced" ]; then
+if [ "$2" == "advanced" ]; then
   echo "Preparing malibu to be $1: advanced"
   git clone --quiet git@github.com:quintype/malibu-advanced.git $DEST
 else
