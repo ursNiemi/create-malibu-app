@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.8](https://github.com/quintype/create-malibu-app/compare/v1.0.7...v1.0.8) (2021-02-09)
+
+
+### Bug Fixes
+
+* add arg support for cloning malibu/advanced ([41c0b04](https://github.com/quintype/create-malibu-app/commit/41c0b0483a2592721c8909ec33515daa1b8bd55a))
+
 ### [1.0.7](https://github.com/quintype/create-malibu-app/compare/v1.0.5...v1.0.7) (2021-01-28)
 
 ### [1.0.6](https://github.com/quintype/create-malibu-app/compare/v1.0.5...v1.0.6) (2021-01-28)
