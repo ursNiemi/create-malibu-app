@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.9](https://github.com/quintype/create-malibu-app/compare/v1.0.8...v1.0.9) (2021-02-09)
+
+
+### Bug Fixes
+
+* add arg quotes to avoid unary warning ([1b5f52a](https://github.com/quintype/create-malibu-app/commit/1b5f52a0dceb91e10832744b9ddf53f17773450c))
+* add arg quotes to avopid unary warning ([00bbbd5](https://github.com/quintype/create-malibu-app/commit/00bbbd5339118ceb4969153da05b9b08e122a2c8))
+
 ### [1.0.8](https://github.com/quintype/create-malibu-app/compare/v1.0.7...v1.0.8) (2021-02-09)
 
 
