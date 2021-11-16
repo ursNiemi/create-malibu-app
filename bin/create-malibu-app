@@ -9,10 +9,10 @@ CODE_PATH="$(
 )"
 if [ "$2" == "advanced" ]; then
   echo "Preparing malibu to be $1: advanced"
-  git clone --quiet git@github.com:quintype/malibu-advanced.git $DEST
+  git clone --quiet https://github.com/quintype/malibu.git $DEST
 else
   echo "Preparing malibu to be $1"
-  git clone --quiet git@github.com:quintype/malibu.git $DEST
+  git clone --quiet https://github.com/quintype/malibu.git $DEST
 fi
 rm -rf $DEST/.circleci/ $DEST/lighthouserc.js $DEST/.git/
 
